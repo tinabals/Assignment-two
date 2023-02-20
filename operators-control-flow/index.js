@@ -10,3 +10,25 @@ if (classGroup === "Science") {
 } else {
   console.log("Invalid class group. General subjects: English, Mathematics");
 }
+
+function findNearestPowerOfTwo(num) {
+  
+  let pwr = 1;
+  
+    while (pwr < num) {
+      pwr *= 2;
+    }
+  
+    if (pwr - num > num - pwr/2) {
+      pwr /= 2;
+    }
+  
+    return console.log(`The number ${pwr} is the power of 2 nearest to ${num}.`);
+  }
+  
+  
+  // Example usage:
+  
+  findNearestPowerOfTwo(40)
+  findNearestPowerOfTwo(20)
+  
