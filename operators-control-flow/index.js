@@ -1,3 +1,6 @@
+
+
+// question 3
 const studentName = "Bola"
 let classGroup = "Arts"
 
@@ -11,6 +14,7 @@ if (classGroup === "Science") {
   console.log("Invalid class group. General subjects: English, Mathematics");
 }
 
+//question 5
 function findNearestPowerOfTwo(num) {
   
   let pwr = 1;
